@@ -1,5 +1,5 @@
 /* 
-  RickUSB-Firmware 1.1
+  RickUSB-Firmware 1.3
 
   USB RickRolling as fast as clicking a link
   99.9% success rate so far
@@ -43,7 +43,7 @@ void setup() {
   delay(100);
   Keyboard.write(KEY_BACKSPACE);
   delay(100);
-  Keyboard.println("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+  Keyboard.println("https://bit.ly/rickstick_1_3n");
   Serial.println("Rolling Complete");
 }
 void loop() {
